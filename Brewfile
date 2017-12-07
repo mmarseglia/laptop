@@ -3,7 +3,7 @@ cask_args appdir: '/Applications'
 # source control
 brew 'git'
 brew 'libgit2'
-cask 'github-desktop'
+cask 'github'
 
 # utilities
 brew 'the_silver_searcher'
