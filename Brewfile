@@ -20,6 +20,13 @@ cask 'vagrant'
 cask 'vagrant-manager'
 cask 'docker-edge'
 
+# other hashicorp goodies
+brew terraform
+brew terraform-docs
+brew terraform_landscape
+brew terraform-inventory
+brew packer
+
 # browsers
 cask 'google-chrome'
 cask 'firefox'
