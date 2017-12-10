@@ -41,6 +41,10 @@ create_zshrc_and_set_it_as_shell_file() {
   shell_file="$HOME/.zshrc"
 }
 
+install_oh_my_zsh() {
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+}
+
 create_bash_profile_and_set_it_as_shell_file() {
   if [ ! -f "$HOME/.bash_profile" ]; then
     touch "$HOME/.bash_profile"
@@ -61,6 +65,7 @@ fi
 case "$SHELL" in
   */zsh) :
     create_zshrc_and_set_it_as_shell_file
+    install_oh_my_zsh
     ;;
   *)
     create_bash_profile_and_set_it_as_shell_file
@@ -81,6 +86,7 @@ case "$SHELL" in
         echo "=== Press control-c to cancel ==="
         create_zshrc_and_set_it_as_shell_file
         chsh -s "$(which zsh)"
+        install_oh_my_zsh
       else
         fancy_echo "Shell will not be changed."
       fi

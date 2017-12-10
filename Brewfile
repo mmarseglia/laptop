@@ -31,6 +31,9 @@ brew 'packer'
 cask 'google-chrome'
 cask 'firefox'
 
+# cloud config
+brew 'awscli'
+
 #tap 'homebrew/services'
 #
 # brew 'postgresql'
