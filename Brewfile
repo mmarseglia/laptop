@@ -30,6 +30,7 @@ brew 'packer'
 # browsers
 cask 'google-chrome'
 cask 'firefox'
+cask 'postman'
 
 # cloud config
 brew 'awscli'
