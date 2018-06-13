@@ -13,6 +13,7 @@ cask 'slack'
 
 # editors
 cask 'sublime-text'
+cask 'visual-studio-code-insiders'
 
 # virtualcontainerization
 cask 'virtualbox'
@@ -34,6 +35,9 @@ cask 'postman'
 
 # cloud config
 brew 'awscli'
+
+# graphics
+brew 'graphviz'
 
 #tap 'homebrew/services'
 #
