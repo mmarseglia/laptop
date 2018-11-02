@@ -39,20 +39,3 @@ brew 'awscli'
 # graphics
 brew 'graphviz'
 
-#tap 'homebrew/services'
-#
-# brew 'postgresql'
-# 
-# brew 'mysql'
-# 
-# brew 'redis'
-# 
-# brew 'phantomjs'
-# 
-# brew 'hub'
-# 
-# tap 'cloudfoundry/homebrew-tap'
-# brew 'cf-cli'
-
-# cask 'cloud'
-# cask 'flux'
