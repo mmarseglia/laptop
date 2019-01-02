@@ -11,3 +11,5 @@ brew 'reattach-to-user-namespace'
 brew 'go'
 brew 'watch'
 brew 'shfmt'
+
+brew 'weather'
